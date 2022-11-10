@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself, go get it, today!'
                 sh 'python --version'
-                sh 'python hello-world.py'
+                sh 'cat /etc/os-release'
             }
         }
     }
